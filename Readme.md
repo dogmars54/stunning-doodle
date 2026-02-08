@@ -54,9 +54,13 @@ The project is designed for **accuracy, data preservation, and scholarly use**, 
 ## 📁 Repository Structure
 
 ├── parser.py # Core rule-based parser
+
 ├── run_parser.py # CSV → JSON / YAML / Hybrid CSV pipeline
+
 ├── test_parser.py # Pytest unit tests
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md
 
 
@@ -194,4 +198,5 @@ This structure is suitable for:
 	Extremely malformed entries may require post-processing.
 	The parser does not attempt semantic correction or deduplication.
 	These are intentional design decisions.
+
 
