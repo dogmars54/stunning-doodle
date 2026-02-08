@@ -1,23 +1,23 @@
 # Tamil Dictionary Parser (SQL/CSV → Structured Data)
 
-Dictionary Name : செந்தமிழ்ச் சொற்பிறப்பியல் பேரகரமுதலி
-Data - https://github.com/neechalkaran/Tamil-Etymology
+- Dictionary Name : செந்தமிழ்ச் சொற்பிறப்பியல் பேரகரமுதலி
+- Data - https://github.com/neechalkaran/Tamil-Etymology
 
 ---🤖 AI Assistance Disclosure
 
 AI assistance was used in the development of this project.
 
-Specifically:
-	Large Language Models (LLMs) were used as a coding and design assistant:
-		to help formalize parsing rules
-		to refactor and validate Python code
-		to generate documentation and tests
+- Specifically:
+ 	- Large Language Models (LLMs) were used as a coding and design assistant:
+    - to help formalize parsing rules
+    - to refactor and validate Python code
+    - to generate documentation and tests
 		
-Important clarifications:
-	The parsing rules, logic, and linguistic decisions were provided and validated by the project author.
-	No training data from this dictionary was used to train any AI model.
-	The parser itself is fully deterministic and rule-based.
-	AI did not generate or infer dictionary content.
+- Important clarifications:
+	- The parsing rules, logic, and linguistic decisions were provided and validated by the project author.
+    - No training data from this dictionary was used to train any AI model.
+    - The parser itself is fully deterministic and rule-based.
+    - AI did not generate or infer dictionary content.
 
 AI was used as a tool, not as an authority.
 
@@ -116,7 +116,8 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 
----
+```
+
 
 Usage
 
@@ -201,6 +202,7 @@ This structure is suitable for:
 	Extremely malformed entries may require post-processing.
 	The parser does not attempt semantic correction or deduplication.
 	These are intentional design decisions.
+
 
 
 
