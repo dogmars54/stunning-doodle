@@ -162,27 +162,6 @@ Each dictionary entry is represented as structured data, for example:
 
 ---
 
-Hybrid CSV Output (Recommended)
-
-
-+----------------------+------------------------------+
-| File                 | Description                  |
-+----------------------+------------------------------+
-| meanings.csv         | One row per meaning          |
-+----------------------+------------------------------+
-| cross_references.csv | All cross-references         |
-+----------------------+------------------------------+
-| etymology.csv        | Multi-line etymology         |
-+----------------------+------------------------------+
-| entries.csv          | One row per dictionary entry |
-+----------------------+------------------------------+
-
-
-This structure is suitable for:
-	SQL databases
-	Linguistic analysis
-	Search indexing
-	Manual editorial review
 
 
 🧪 Running Tests
@@ -202,6 +181,7 @@ This structure is suitable for:
 	Extremely malformed entries may require post-processing.
 	The parser does not attempt semantic correction or deduplication.
 	These are intentional design decisions.
+
 
 
 
