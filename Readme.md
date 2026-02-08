@@ -2,7 +2,16 @@
 
 - Dictionary Name : செந்தமிழ்ச் சொற்பிறப்பியல் பேரகரமுதலி
 - Data - https://github.com/neechalkaran/Tamil-Etymology
+- Need furthur processing
 
+
+- ⚠️ Known Limitations
+	- The parser assumes the legacy tag conventions are consistent.
+    - Extremely malformed entries may require post-processing.
+    - The parser does not attempt semantic correction or deduplication.
+    - These are intentional design decisions.
+ 
+  
 ---🤖 AI Assistance Disclosure
 
 AI assistance was used in the development of this project.
@@ -176,11 +185,7 @@ Each dictionary entry is represented as structured data, for example:
 		
 
 
-⚠️ Known Limitations
-	The parser assumes the legacy tag conventions are consistent.
-	Extremely malformed entries may require post-processing.
-	The parser does not attempt semantic correction or deduplication.
-	These are intentional design decisions.
+
 
 
 
